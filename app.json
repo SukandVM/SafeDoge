@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "Stray Dog Alert",
+    "slug": "doge",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#0d1117"
+    },
+    "android": {
+      "package": "com.straydogalert.app",
+      "googleServicesFile": "./google-services.json",
+      "backgroundColor": "#0d1117",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBWJkyJtxEYRVbzSmf4t76GinXi103q2Mc"
+        }
+      },
+      "permissions": [
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+      "expo-image-picker",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Used to tag where the dog sighting occurred."
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "f3f6392c-5e36-43ff-8fb9-2290eaff4137"
+      }
+    },
+    "owner": "sukavm"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "517450683576",
+    "project_id": "stray-dog-ffa9b",
+    "storage_bucket": "stray-dog-ffa9b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517450683576:android:b9db86c2f1936a050fd04d",
+        "android_client_info": {
+          "package_name": "com.straydogalert.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWJkyJtxEYRVbzSmf4t76GinXi103q2Mc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
