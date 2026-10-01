@@ -14,7 +14,7 @@
       "backgroundColor": "#0d1117",
       "config": {
         "googleMaps": {
-          "apiKey": "AIzaSyBWJkyJtxEYRVbzSmf4t76GinXi103q2Mc"
+          "apiKey": ""
         }
       },
       "permissions": [
@@ -47,7 +47,7 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "f3f6392c-5e36-43ff-8fb9-2290eaff4137"
+        "projectId": ""
       }
     },
     "owner": "sukavm"
